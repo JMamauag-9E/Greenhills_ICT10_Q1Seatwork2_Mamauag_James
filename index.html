@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.7.3/core.css">
+    <script type="module" src="https://pyscript.net/releases/2025.7.3/core.js"></script>
+    <title>Seatwork 2</title>
+    <style>
+        #title {
+            font-size: larger;
+            background-color: blueviolet;
+            text-align: center;
+            color: antiquewhite;
+            padding: 10px;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            border: 1px solid #ddd;
+        }
+
+        #tables {
+            background-color: grey;
+            color: azure;
+        }
+
+        th {
+            font-size: medium;
+            padding: 10px;
+        }
+
+        tr {
+            font-size: medium;
+            padding: 10px;
+        }
+
+        td {
+            font-size: medium;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="title" class="container p-5 my-5 border">
+        <h1 id="name"></h1><br>
+    </div>
+</br>
+    <div class="container">
+        <table class="table table-bordered" id="tables">
+        <thead>
+            <tr>
+                <th>Products</th>
+                <th>Prices</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td id="product1"></td>
+                <td id="price1"></td>
+            </tr>
+            <tr>
+                <td id="product2"></td>
+                <td id="price2"></td>
+            </tr>
+            <tr>
+                <td id="product3"></td>
+                <td id="price3"></td>
+            </tr>
+            <tr>
+                <td id="product4"></td>
+                <td id="price4"></td>
+            </tr>
+            <tr>
+                <td id="product5"></td>
+                <td id="price5"></td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+    
+    <script type="py" src="main.py"></script>
+</body>
+</html>
+
+<!--Reference: Codes from w3schools.com-->
